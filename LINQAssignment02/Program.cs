@@ -12,12 +12,28 @@ namespace LINQAssignment02
             //var result = ProductList.OrderBy(p => p.UnitPrice).Reverse().Take(3);
             #endregion
 
+            #region Question02
+            //Soulution01
+            //var result = ProductList.OrderBy(p=>p.ProductName).Skip(5).Take(5);
+
+            //Another Soulution
+            //GetProduct(2, 5); 
+            #endregion
 
 
 
 
 
 
+            foreach (var item in result)
+                Console.WriteLine(item);
+        }
+
+        static void GetProduct(int page , int pageSize)
+        {
+            var result = ProductList.OrderBy(p=> p.ProductName)
+                                    .Skip((page - 1) * pageSize)
+                                    .Take(pageSize);
 
 
             foreach (var item in result)
