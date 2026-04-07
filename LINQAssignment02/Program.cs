@@ -35,6 +35,21 @@ namespace LINQAssignment02
             //var result = ids.Contains(9);
             //Console.WriteLine(result); 
             #endregion
+            
+            #region Question06
+            //var result = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var products in result)
+            //{
+            //    Console.WriteLine($"Category : {products.Key}");
+            //    Console.WriteLine($"  Number Of Product : {products.Count()}");
+
+            //    foreach (var item in products)
+            //        Console.WriteLine($"     {item.ProductID} -- {item.ProductName} -- {item.UnitPrice}");
+            //    Console.WriteLine("-------------------------------------------------------------");
+            //} 
+            #endregion
+
 
 
 
