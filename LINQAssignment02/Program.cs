@@ -64,10 +64,18 @@ namespace LINQAssignment02
             //        Console.WriteLine($"     {item}");
             //    Console.WriteLine("-------------------------------------------------------------");
             //} 
-            #endregion 
+            #endregion
 
+            #region Question08
+            //var result = ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3);
+            //foreach (var products in result)
+            //{
+            //    Console.WriteLine($"Category : {products.Key}");
+            //    Console.WriteLine($"  Number Of Product : {products.Count()}");
 
-
+            //    Console.WriteLine("-------------------------------------------------------------");
+            //} 
+            #endregion
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
