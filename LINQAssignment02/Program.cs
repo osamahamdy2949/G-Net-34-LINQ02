@@ -87,11 +87,15 @@ namespace LINQAssignment02
             //                Count = countryGroup.Count(),
             //                TotalOrderValue = countryGroup.Sum(c => c.Orders.Sum(o => o.Total))
             //            }; 
+            #endregion
+
+            #region Question10
+            //var result = ProductList.Sum(p => p.UnitsInStock);
+            //Console.WriteLine(result); 
             #endregion 
 
-
-            foreach (var item in result)
-                Console.WriteLine(item);
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
         }
 
         static void GetProduct(int page , int pageSize)
