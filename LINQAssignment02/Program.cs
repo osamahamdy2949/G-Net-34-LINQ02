@@ -24,11 +24,18 @@ namespace LINQAssignment02
             //var result = ProductList.TakeWhile(p => p.UnitPrice < 25).OrderBy(p => p.UnitPrice); 
             #endregion
 
+            #region Question04
+            //var result = ProductList.Where(p => p.Category == "Seafood").Any(s => s.UnitsInStock > 0);
+            //Console.WriteLine(result);
+            #endregion
 
 
 
-            foreach (var item in result)
-                Console.WriteLine(item);
+
+
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
         }
 
         static void GetProduct(int page , int pageSize)
