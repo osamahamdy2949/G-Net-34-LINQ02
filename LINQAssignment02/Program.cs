@@ -29,8 +29,12 @@ namespace LINQAssignment02
             //Console.WriteLine(result);
             #endregion
 
+            #region Question05
+            //int[] ids = { 3, 9, 13, 18 };
 
-
+            //var result = ids.Contains(9);
+            //Console.WriteLine(result); 
+            #endregion
 
 
 
