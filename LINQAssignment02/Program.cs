@@ -20,7 +20,9 @@ namespace LINQAssignment02
             //GetProduct(2, 5); 
             #endregion
 
-
+            #region Question03
+            //var result = ProductList.TakeWhile(p => p.UnitPrice < 25).OrderBy(p => p.UnitPrice); 
+            #endregion
 
 
 
