@@ -77,8 +77,21 @@ namespace LINQAssignment02
             //} 
             #endregion
 
-            //foreach (var item in result)
-            //    Console.WriteLine(item);
+            #region Question09
+            //var result =
+            //            from customer in CustomerList
+            //            group customer by customer.Country into countryGroup
+            //            select new
+            //            {
+            //                Country = countryGroup.Key,
+            //                Count = countryGroup.Count(),
+            //                TotalOrderValue = countryGroup.Sum(c => c.Orders.Sum(o => o.Total))
+            //            }; 
+            #endregion 
+
+
+            foreach (var item in result)
+                Console.WriteLine(item);
         }
 
         static void GetProduct(int page , int pageSize)
