@@ -35,7 +35,7 @@ namespace LINQAssignment02
             //var result = ids.Contains(9);
             //Console.WriteLine(result); 
             #endregion
-            
+
             #region Question06
             //var result = ProductList.GroupBy(p => p.Category);
 
@@ -45,10 +45,26 @@ namespace LINQAssignment02
             //    Console.WriteLine($"  Number Of Product : {products.Count()}");
 
             //    foreach (var item in products)
-            //        Console.WriteLine($"     {item.ProductID} -- {item.ProductName} -- {item.UnitPrice}");
+            //        Console.WriteLine($"     {item}");
+            //    Console.WriteLine("-------------------------------------------------------------");
+            //}
+            #endregion
+
+            #region Question07
+            //var groups = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var products in groups)
+            //{
+            //    Console.WriteLine($"Category : {products.Key}");
+            //    Console.WriteLine($"  Number Of Product : {products.Count()}");
+
+            //    var result = products.Select(p => p.ProductName);
+
+            //    foreach (var item in result)
+            //        Console.WriteLine($"     {item}");
             //    Console.WriteLine("-------------------------------------------------------------");
             //} 
-            #endregion
+            #endregion 
 
 
 
