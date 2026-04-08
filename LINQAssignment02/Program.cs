@@ -130,12 +130,18 @@ namespace LINQAssignment02
             //string[] list2 = { "france", "SPAIN", "Italy" };
 
             //var result = list1.Except(list2 , StringComparer.OrdinalIgnoreCase); 
+            #endregion
+
+            #region Question15
+            //var productDict = ProductList.ToDictionary(p => p.ProductID);
+
+            //var product = productDict[18];
+            //Console.WriteLine(product); 
             #endregion 
 
 
-
-            foreach (var item in result)
-                Console.WriteLine(item);
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
         }
 
         static void GetProduct(int page , int pageSize)
