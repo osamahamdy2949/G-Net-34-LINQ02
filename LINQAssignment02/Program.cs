@@ -92,7 +92,29 @@ namespace LINQAssignment02
             #region Question10
             //var result = ProductList.Sum(p => p.UnitsInStock);
             //Console.WriteLine(result); 
-            #endregion 
+            #endregion
+
+            #region Question11
+            //CHEAPEST
+            //var cheapest = ProductList.Min(p=> p.UnitPrice);
+            //Console.WriteLine(cheapest);
+
+            //Another Way
+            //var cheapest = ProductList.OrderBy(p => p.UnitPrice).Take(1);
+            //foreach (var item in cheapest)
+            //    Console.WriteLine(item);
+
+            //MOST EXPENSIVE
+            //var mostExpensive = ProductList.Max(p=> p.UnitPrice);
+            //Console.WriteLine(mostExpensive);
+
+            //Another Way
+            //var mostExpensive = ProductList.OrderByDescending(p => p.UnitPrice).Take(1);
+            //foreach (var item in mostExpensive)
+            //    Console.WriteLine(item); 
+            #endregion
+
+
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
