@@ -116,7 +116,7 @@ namespace LINQAssignment02
 
             #region Question12
             //var result = ProductList.Select(p => p.Category).Distinct(); 
-            #endregion 
+            #endregion
 
             #region Question13
             //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
@@ -124,6 +124,13 @@ namespace LINQAssignment02
 
             //var result = setA.Except(setB); 
             #endregion
+
+            #region Question14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+
+            //var result = list1.Except(list2 , StringComparer.OrdinalIgnoreCase); 
+            #endregion 
 
 
 
