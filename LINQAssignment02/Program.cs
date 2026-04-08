@@ -114,10 +114,14 @@ namespace LINQAssignment02
             //    Console.WriteLine(item); 
             #endregion
 
+            #region Question12
+            //var result = ProductList.Select(p => p.Category).Distinct(); 
+            #endregion
 
 
-            //foreach (var item in result)
-            //    Console.WriteLine(item);
+
+            foreach (var item in result)
+                Console.WriteLine(item);
         }
 
         static void GetProduct(int page , int pageSize)
