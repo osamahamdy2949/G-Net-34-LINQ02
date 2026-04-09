@@ -137,7 +137,13 @@ namespace LINQAssignment02
 
             //var product = productDict[18];
             //Console.WriteLine(product); 
+            #endregion
+
+            #region Question16
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 50m);
+            //Console.WriteLine(result); 
             #endregion 
+
 
 
             //foreach (var item in result)
