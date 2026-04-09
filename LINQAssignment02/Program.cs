@@ -24,11 +24,17 @@ namespace LINQAssignment02
             #endregion
 
             #region Question03
-            //var result = ProductList.TakeWhile(p => p.UnitPrice < 25).OrderBy(p => p.UnitPrice); 
+            //var result = ProductList.TakeWhile(p => p.UnitPrice < 25).OrderBy(p => p.UnitPrice); XXX
+
+            //Correct Answer
+            //var result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
             #endregion
 
             #region Question04
-            //var result = ProductList.Where(p => p.Category == "Seafood").Any(s => s.UnitsInStock > 0);
+            //var result = ProductList.Where(p => p.Category == "Seafood").Any(s => s.UnitsInStock > 0); XXX
+
+            //Correct Answer
+            //var result = ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
             //Console.WriteLine(result);
             #endregion
 
@@ -67,6 +73,14 @@ namespace LINQAssignment02
             //        Console.WriteLine($"     {item}");
             //    Console.WriteLine("-------------------------------------------------------------");
             //} 
+
+            //Another Way
+            //var result = ProductList.GroupBy(p => p.Category)
+            //                        .Select(g => new
+            //                        {
+            //                            Category = g.Key,
+            //                            Products = g.Select(p => p.ProductName)
+            //                        });
             #endregion
 
             #region Question08
