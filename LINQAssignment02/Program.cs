@@ -153,6 +153,11 @@ namespace LINQAssignment02
             //var result = Enumerable.Range(1, 12).Select(n => $"{n} * {7} =  {n*7}");
             #endregion
 
+            #region Question19
+            //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
+            #endregion 
+
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
