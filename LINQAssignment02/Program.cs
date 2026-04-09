@@ -147,8 +147,11 @@ namespace LINQAssignment02
             #region Question17
             //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
             //Console.WriteLine(result); 
-            #endregion 
+            #endregion
 
+            #region Question18
+            //var result = Enumerable.Range(1, 12).Select(n => $"{n} * {7} =  {n*7}");
+            #endregion
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
