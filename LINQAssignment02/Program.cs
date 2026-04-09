@@ -155,8 +155,11 @@ namespace LINQAssignment02
 
             #region Question19
             //var result = Enumerable.Range(1, 30).Where(n => n % 2 == 0);
-            #endregion 
+            #endregion
 
+            #region Question20
+            //var result = ProductList.Take(3).Select(p => p.ProductName).Concat(CustomerList.Take(3).Select(c => c.CompanyName));
+            #endregion
 
             //foreach (var item in result)
             //    Console.WriteLine(item);
