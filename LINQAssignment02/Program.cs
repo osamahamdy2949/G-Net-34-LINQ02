@@ -142,8 +142,12 @@ namespace LINQAssignment02
             #region Question16
             //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 50m);
             //Console.WriteLine(result); 
-            #endregion 
+            #endregion
 
+            #region Question17
+            //var result = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result); 
+            #endregion 
 
 
             //foreach (var item in result)
