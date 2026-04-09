@@ -161,6 +161,10 @@ namespace LINQAssignment02
             //var result = ProductList.Take(3).Select(p => p.ProductName).Concat(CustomerList.Take(3).Select(c => c.CompanyName));
             #endregion
 
+            #region Question21
+            //var result = ProductList.Select(p => p.ProductName).Zip(CustomerList.Select(c => c.CompanyName), (p,c) => $"({p}) Sold To ({c})");
+            #endregion
+
             //foreach (var item in result)
             //    Console.WriteLine(item);
         }
