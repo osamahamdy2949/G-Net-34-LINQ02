@@ -10,6 +10,9 @@ namespace LINQAssignment02
 
             #region Question01
             //var result = ProductList.OrderBy(p => p.UnitPrice).Reverse().Take(3);
+
+            //Another Way 
+            //var result = ProductList.OrderByDescending(p => p.UnitPrice).Take(3);
             #endregion
 
             #region Question02
